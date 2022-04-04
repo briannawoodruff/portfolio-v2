@@ -1,0 +1,7 @@
+.textshadow {
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.411);
+}
+
+.smallshadow {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.466);
+}
