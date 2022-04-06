@@ -1,6 +1,7 @@
 import Polari1 from '../../assets/project-images/polari-homepage.png'
 import Unpuffd from '../../assets/project-images/unpuffd.png'
 import BookSearch from '../../assets/project-images/booksearch.png'
+import TechBlog from '../../assets/project-images/techblog.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -10,11 +11,11 @@ const projects = [
     {
         name: 'Polari',
         description:
-            'Polari is an inclusive dating app and safe space for the LGBTQIA+ community. React, TailwindCSS, Node.js, Express, MongoDB, and Apollo GraphQL were used to create this application.',
+            'Polari is an inclusive dating app aimed to promote healthy relationships through identifying attachment styles and matching people with compatible attachment styles. React, TailwindCSS, Node.js, Express, MongoDB, and Apollo GraphQL were used to create this application.',
         github: "https://github.com/polari-2022/frontend-polari",
         web: "https://polari-attachments.herokuapp.com/",
         imageSrc: Polari1,
-        imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+        imageAlt: 'Polari',
     },
     {
         name: 'Google Book Search',
@@ -23,16 +24,25 @@ const projects = [
         github: "https://github.com/briannawoodruff/Book-Search-Engine-MERN",
         web: "https://book-searched-mern.herokuapp.com",
         imageSrc: BookSearch,
-        imageAlt: 'Detail of zipper pull with tan leather and silver rivet.',
+        imageAlt: 'Google Book Search',
     },
     {
-        name: 'Unpuffd',
+        name: 'UnPuffd',
         description:
-            'Unpuffd is an application inspired by Untappd that allows people to learn about and review cannabis if of legal age. This application utilizes Node.JS, Express, Dotenv, Handlebars, bcrypt, MySQL, and Sequelize.',
+            'UnPuffd is an application inspired by Untappd that allows people to learn about and review cannabis if of legal age. This application utilizes Node.JS, Express, Dotenv, Handlebars, bcrypt, MySQL, and Sequelize.',
         github: "https://github.com/coding-p2-g2/unpuffd",
         web: "https://unpuffd.herokuapp.com/",
         imageSrc: Unpuffd,
-        imageAlt: 'Detail of zipper pull with tan leather and silver rivet.',
+        imageAlt: 'UnPuffd',
+    },
+    {
+        name: 'The Tech Blog',
+        description:
+            "A CMS-style blog where developers can create blog posts and comment on other developers' posts. This application uses Handlebars.js, Sequelize, and express-session authentication.",
+        github: "https://github.com/briannawoodruff/tech-blog-mvc",
+        web: "https://the-mvc-techblog.herokuapp.com/",
+        imageSrc: TechBlog,
+        imageAlt: 'Tech Blog',
     },
 ]
 
@@ -42,7 +52,7 @@ function classNames(...classes) {
 
 export default function AllProjects() {
     return (
-        <div className="mt-16 space-y-16">
+        <div className="pt-10 space-y-16">
             {projects.map((project, projectIdx) => (
                 <div
                     key={project.name}

@@ -61,7 +61,7 @@ export default function ContactMe() {
                 </div>
                 <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
                     <img
-                        className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-36 opacity-50 z-40"
+                        className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-36 opacity-40 z-40"
                         width={600}
                         height={784}
                         fill="none"

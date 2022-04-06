@@ -20,16 +20,16 @@ export default function Project() {
                 </div>
                 <div className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
                     <img
-                        className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-36 opacity-50 overflow-y-hidden"
+                        className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-36 opacity-40 overflow-y-hidden"
                         width={600}
                         height={784}
                         fill="none"
-                        viewBox="0 0 592 784"
+                        viewBox="0 0 600 784"
                         aria-hidden="true"
                         src={Pattern}
                         alt="Pattern" />
 
-                    <img
+                    {/* <img
                         className="absolute top-full left-full transform translate-y-96 -translate-x-48 opacity-50"
                         width={600}
                         height={784}
@@ -37,7 +37,7 @@ export default function Project() {
                         viewBox="0 0 592 784"
                         aria-hidden="true"
                         src={Pattern}
-                        alt="Pattern" />
+                        alt="Pattern" /> */}
                 </div>
 
                 <div className="relative">
@@ -47,7 +47,7 @@ export default function Project() {
                 </div>
             </div>
 
-            <div className="relative bg-white max-w-2xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div className="relative bg-white mb-20 max-w-2xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <AllProjects />
             </div>
         </>
