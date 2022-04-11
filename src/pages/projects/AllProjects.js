@@ -11,7 +11,7 @@ const projects = [
     {
         name: 'Polari',
         description:
-            'Polari is an inclusive dating app aimed to promote healthy relationships through identifying attachment styles and matching people with compatible attachment styles. React, TailwindCSS, Node.js, Express, MongoDB, and Apollo GraphQL were used to create this application.',
+            'Polari is an inclusive dating app aimed to promote healthy relationships through identifying and matching people with compatible attachment styles. React, TailwindCSS, Node.js, Express, MongoDB, and Apollo GraphQL were used to create this application.',
         github: "https://github.com/polari-2022/frontend-polari",
         web: "https://polari-attachments.herokuapp.com/",
         imageSrc: Polari1,
