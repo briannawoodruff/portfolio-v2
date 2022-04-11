@@ -43,13 +43,13 @@ export default function Featured() {
 
                         <p className="inline text-4xl font-extrabold text-gray-900 tracking-tight">Polari
                   
-                            <a className="text-3xl ml-5 mr-2 font-medium text-gray-900" target="_blank" rel="noreferrer" href="https://github.com/polari-2022/frontend-polari"><FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="text-3xl mx-2 font-medium text-gray-900" target="_blank" rel="noreferrer" href="https://polari-attachments.herokuapp.com/"><FontAwesomeIcon icon={faGlobe} /></a>
+                            <a className="hover:text-rose-800 text-3xl ml-5 mr-2 font-medium text-gray-900" target="_blank" rel="noreferrer" href="https://github.com/polari-2022/frontend-polari"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a className="hover:text-rose-800 text-3xl mx-2 font-medium text-gray-900" target="_blank" rel="noreferrer" href="https://polari-attachments.herokuapp.com/"><FontAwesomeIcon icon={faGlobe} /></a>
                       
                         </p>
 
                         <p className="mt-4 text-lg text-gray-500">
-                            Polari is an inclusive dating app aimed to promote healthy relationships through identifying attachment styles and matching people with compatible attachment styles.
+                            Polari is an inclusive dating app aimed to promote healthy relationships through identifying and matching people with compatible attachment styles.
                         </p>
 
                         <dl className="mt-10 grid grid-cols-1 gap-y-10 gap-x-8 text-medium sm:grid-cols-2">

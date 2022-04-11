@@ -1,7 +1,7 @@
 import React from 'react'
 import './aboutme.css'
+import { NavLink } from 'react-router-dom'
 
-import AllProjects from '../projects/AllProjects'
 import Featured from '../../components/aboutme/Featured'
 import Pattern from '../../assets/pattern.svg'
 import ProfileImg from '../../assets/headshot2022.jpg'
@@ -70,14 +70,10 @@ export default function AboutMe() {
             <div className="relative bg-white max-w-2xl mx-auto px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                 <div className="max-w-3xl mx-auto text-center">
                 </div>
-                    <h2 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">Featured Project</h2>
-                    <p className="text-2xl font-medium mt-5">+ View All</p>
-                {/* <AllProjects /> */}
+                    <h2 className="mb-3 text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">Featured Project</h2>
+                    <NavLink to='/portfolio' className="hover:text-rose-700 text-2xl font-medium">+ <span className='underline'>View All</span>
+                    </NavLink>
             </div>
-            {/* <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="max-w-7xl mx-auto">
-                </div>
-            </div> */}
             <Featured />
         </>
     )

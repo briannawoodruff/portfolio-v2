@@ -67,8 +67,8 @@ export default function AllProjects() {
                         <h3 className="text-3xl font-medium text-gray-900">{project.name}</h3>
                         <p className="mt-2 mb-4 text-lg text-gray-500">{project.description}</p>
                         <div className="flex justify-center">
-                            <a className="text-4xl mx-3 font-medium text-gray-900" target="_blank" rel="noreferrer" href={project.github}><FontAwesomeIcon icon={faGithub} /></a>
-                            <a className="text-4xl mx-3 font-medium text-gray-900" target="_blank" rel="noreferrer" href={project.web}><FontAwesomeIcon icon={faGlobe} /></a>
+                            <a className="hover:text-rose-800 text-4xl mx-3 font-medium text-gray-900" target="_blank" rel="noreferrer" href={project.github}><FontAwesomeIcon icon={faGithub} /></a>
+                            <a className="hover:text-rose-800 text-4xl mx-3 font-medium text-gray-900" target="_blank" rel="noreferrer" href={project.web}><FontAwesomeIcon icon={faGlobe} /></a>
                         </div>
                     </div>
                     <div
