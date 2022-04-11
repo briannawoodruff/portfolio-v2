@@ -4,10 +4,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { NavLink } from 'react-router-dom'
 
 const navigation = [
-    { name: 'About Me', to: '/' },
-    { name: 'Portfolio', to: '/portfolio' },
-    { name: 'Contact Me', to: '/contact-me' },
-    { name: 'Resume', to: '/resume' },
+  { name: 'About Me', to: '/' },
+  { name: 'Portfolio', to: '/portfolio' },
+  { name: 'Contact Me', to: '/contact-me' },
 ]
 
 export default function Navbar() {
@@ -31,14 +30,15 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch">
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item) => (
-                        <NavLink
-                            key={item.name}
-                            to={item.to}
-                            className="border-transparent text-gray-700 hover:border-rose-700 hover:text-rose-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium focus:border-rose-700 focus:text-rose-700 focus:border-b-2"
-                            >
-                            {item.name}
-                        </NavLink>
-                    ))}
+                    <NavLink
+                      key={item.name}
+                      to={item.to}
+                      className="border-transparent text-gray-700 hover:border-rose-700 hover:text-rose-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium focus:border-rose-700 focus:text-rose-700 focus:border-b-2"
+                    >
+                      {item.name}
+                    </NavLink>
+                  ))}
+                  <a className="border-transparent text-gray-700 hover:border-rose-700 hover:text-rose-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium focus:border-rose-700 focus:text-rose-700 focus:border-b-2" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1x74S1tvkGc0rBVdG9h1VR7O0bJQ0IhG8/view?usp=sharing">Resume</a>
                 </div>
               </div>
             </div>
@@ -48,13 +48,13 @@ export default function Navbar() {
             <div className="pt-2 pb-4 space-y-1">
               {navigation.map((item) => (
                 <NavLink
-                    key={item.name}
-                    to={item.to}
-                    className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-rose-700 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-lg font-medium focus:bg-rose-50 focus:text-rose-700 focus:border-b-2"
-                    >
-                    {item.name}
+                  key={item.name}
+                  to={item.to}
+                  className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-rose-700 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-lg font-medium focus:bg-rose-50 focus:text-rose-700 focus:border-b-2"
+                >
+                  {item.name}
                 </NavLink>
-                ))}
+              ))}
             </div>
           </Disclosure.Panel>
         </>
