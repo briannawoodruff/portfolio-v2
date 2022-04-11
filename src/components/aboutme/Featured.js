@@ -25,7 +25,7 @@ const features = [
 
 export default function Featured() {
     return (
-        <div className="bg-white mb-20">
+        <div className="bg-white lg:mb-16">
             <section aria-labelledby="featured-project" className="relative">
                 <div className="aspect-w-3 aspect-h-2 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:w-1/2 lg:h-full lg:pr-4 xl:pr-16">
                     <img
