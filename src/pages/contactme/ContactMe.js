@@ -87,7 +87,7 @@ export default function ContactMe() {
                         <div className="max-w-lg mx-auto">
                             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
                             <p className="mt-3 text-lg leading-6 text-gray-500">
-                                Send me an email here or contact me below.
+                                Send a message here or get in contact below.
                             </p>
                             <dl className="mt-8 text-base text-gray-500">
                                 <div className="mt-6">
@@ -108,7 +108,7 @@ export default function ContactMe() {
                             <p className="mt-6 text-base text-gray-500">
                                 Looking for my LinkedIn?{' '}
                                 <a target="_blank" href="https://www.linkedin.com/in/briannaewoodruff/" rel="noreferrer" className="font-medium text-gray-700 underline">
-                                    Message me on LinkedIn
+                                    Connect with me
                                 </a>
                                 .
                             </p>
