@@ -2,6 +2,7 @@ import Polari1 from '../../assets/project-images/polari-homepage.png'
 import Unpuffd from '../../assets/project-images/unpuffd.png'
 import BookSearch from '../../assets/project-images/booksearch.png'
 import TechBlog from '../../assets/project-images/techblog.jpg'
+import NoteTaker from '../../assets/project-images/note-taker.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -43,6 +44,15 @@ const projects = [
         web: "https://the-mvc-techblog.herokuapp.com/",
         imageSrc: TechBlog,
         imageAlt: 'Tech Blog',
+    },
+    {
+        name: 'The Note Taker App',
+        description:
+            "A note taking application created by modifying starter code and adding an Express.js backend to save and retrieve notes from a JSON file.",
+        github: "https://github.com/briannawoodruff/note-taker-app",
+        web: "https://note-taker-app-bw.herokuapp.com/",
+        imageSrc: NoteTaker,
+        imageAlt: 'Note Taker App',
     },
 ]
 

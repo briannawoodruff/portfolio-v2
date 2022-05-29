@@ -19,7 +19,7 @@ const features = [
     },
     {
         name: 'Future Development',
-        description: 'Photo storage with AWS and a mobile application.'
+        description: 'Photo storage with AWS, a mobile application, and improved security.'
     },
 ]
 
@@ -35,11 +35,11 @@ export default function Featured() {
                     />
                 </div>
 
-                <div className="bg-white max-w-2xl mx-auto pt-10 pb-24 px-4 sm:pb-10 sm:px-6 lg:max-w-7xl lg:pt-32 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+                <div className="bg-white max-w-2xl mx-auto pt-10 pb-24 px-4 sm:pb-10 sm:px-6 lg:max-w-7xl lg:pt-24 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
                     <div className="lg:mr-10 lg:col-start-2">
-                        <h2 id="features-heading" className="mb-5 font-medium text-gray-500">
+                        {/* <h2 id="features-heading" className="mb-5 font-medium text-gray-500">
                             Currently in production
-                        </h2>
+                        </h2> */}
 
                         <p className="inline text-4xl font-extrabold text-gray-900 tracking-tight">Polari
                   
