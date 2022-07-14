@@ -54,10 +54,10 @@ export default function AboutMe() {
                             <div className="text-2xl leading-9 font-medium text-gray-900">
                                 <h1 className="text-6xl mb-10 font-bold tracking-tight textshadow text-white sm:text-6xl lg:text-8xl">Brianna Woodruff</h1>
                                 <p className="mt-10 text-xl smallshadow text-white max-w-3xl">
-                                    Hi, I'm a Full-Stack Software Engineer based in Chicago. I graduated from Northwestern's Full Stack Coding Bootcamp 2022 and also have a B.A. in Communication Arts - Radio, TV, Film from the University of Wisconsin - Madison.
+                                    Hi, I'm a Full-Stack Web Developer based in Chicago. I graduated from Northwestern's Full Stack Coding Bootcamp 2022 and also have a B.A. in Communication Arts - Radio, TV, Film from the University of Wisconsin - Madison.
                                 </p>
                                 <p className="mt-6 text-xl smallshadow text-white max-w-3xl">
-                                    With a background in the film industry and luxury floral production, I resourcefully blend creative and technical skills to solve problems, creatively adapt to challenges and rapidly pick up new tools/languages to deliver results efficiently.
+                                    Combining both a background in arts and technology, I resourcefully blend creative and technical skills to solve problems, creatively adapt to challenges and rapidly pick up new tools/languages. I'm skilled in JavaScript, React.js, HTML5, CSS3, Node.js, MySQL, MongoDB, GraphQL, and Adobe Creative Cloud and have strengths in creative thinking and problem solving, design, operating large and small scale projects, and working effectively and efficiently with others.
                                 </p>
                             </div>
                         </div>
