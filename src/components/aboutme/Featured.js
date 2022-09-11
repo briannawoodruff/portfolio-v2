@@ -6,16 +6,16 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 const features = [
     {
         name: 'Front End',
-        description: 'This is a React application with TailwindCSS styling.',
+        description: 'This is a React.js application with TailwindCSS styling.',
     },
     {
         name: 'Back End',
-        description: 'MERN stack - MongoDB, GraphQL and Apollo, as well as bcrypt and JSON Web Token.',
+        description: 'MERN stack - MongoDB, Apollo GraphQL, and Node.js.',
     },
     {
         name: 'Tools',
         description:
-            'MomentJS and EmailJS',
+            'MomentJS, EmailJS, bcrypt, and JSON Web Token.',
     },
     {
         name: 'Future Development',

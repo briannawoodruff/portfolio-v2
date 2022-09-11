@@ -1,4 +1,4 @@
-import coool from '../../assets/project-images/coool.jpg'
+import coool from '../../assets/project-images/coool-projects.jpg'
 import Polari1 from '../../assets/project-images/polari-homepage.png'
 import Unpuffd from '../../assets/project-images/unpuffd.png'
 import BookSearch from '../../assets/project-images/booksearch.png'
@@ -13,9 +13,9 @@ const projects = [
     {
         name: 'coool',
         description:
-            'A freelance portfolio website, showcasing video projects in an interactive design. Implemented front end pixel-perfect design via React.js, HTML5, CSS3, and JavaScript with responsive mobile design. Built NoSQL database via MongoDB and MongoDB Atlas. Currently in production.',
+            'A freelance portfolio website, showcasing video projects in an interactive design. Implemented front end pixel-perfect design via React.js, HTML5, CSS3, and JavaScript with responsive mobile design. Built NoSQL database via MongoDB and MongoDB Atlas.',
         github: "https://github.com/coool-portfolio/coool",
-        web: "https://coool-predeploy.herokuapp.com/",
+        web: "https://www.itscoool.com/",
         imageSrc: coool,
         imageAlt: 'coool',
     },
