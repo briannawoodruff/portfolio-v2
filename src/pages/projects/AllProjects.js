@@ -1,3 +1,4 @@
+import RVDVR from '../../assets/project-images/RVDVR-screenshot.png'
 import coool from '../../assets/project-images/coool-projects.jpg'
 import Polari1 from '../../assets/project-images/polari-homepage.png'
 import Unpuffd from '../../assets/project-images/unpuffd.png'
@@ -10,6 +11,15 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 const projects = [
+    {
+        name: 'RVDΛR',
+        description:
+            'A tool to simplify the overwhelming and never ending to do list by helping users prioritize tasks into more manageable pieces using the Eisenhower Matrix. Designed with Figma and Canva and translated into a mobile-optimized and responsive front-end. Built with Vue.js, JavaScript, Sass, and Jest. *Currently in development*',
+        github: "https://github.com/briannawoodruff/RVDVR",
+        web: "https://github.com/briannawoodruff/RVDVR",
+        imageSrc: RVDVR,
+        imageAlt: 'RVDVR',
+    },
     {
         name: 'coool',
         description:

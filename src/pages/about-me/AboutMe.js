@@ -57,7 +57,7 @@ export default function AboutMe() {
                                     Hi, I'm a Full-Stack Developer based in Chicago. I graduated from Northwestern's Full Stack Web Development Bootcamp in 2022 and also have a B.A. in Communication Arts - Radio, TV, Film from the University of Wisconsin - Madison.
                                 </p>
                                 <p className="mt-6 text-xl smallshadow text-white max-w-3xl">
-                                    Combining both a background in arts and technology, I resourcefully blend creative and technical skills to solve problems, creatively adapt to challenges and rapidly pick up new tools/languages. I'm skilled in JavaScript, React.js, HTML5, CSS3, Node.js, MySQL, MongoDB, GraphQL, and Adobe Creative Cloud and have strengths in creative thinking and problem solving, design, operating large and small scale projects, and working effectively and efficiently with others.
+                                    Combining both a background in arts and technology, I resourcefully blend creative and technical skills to solve problems, creatively adapt to challenges and rapidly pick up new tools/languages. I'm skilled in JavaScript, React.js, Vue.js, HTML5/CSS3, Sass, Jest, Node.js, MySQL, MongoDB, GraphQL, and Adobe Creative Cloud. I have strengths in creative thinking and problem solving, design, operating large and small scale projects, and working effectively and efficiently with others.
                                 </p>
                             </div>
                         </div>
